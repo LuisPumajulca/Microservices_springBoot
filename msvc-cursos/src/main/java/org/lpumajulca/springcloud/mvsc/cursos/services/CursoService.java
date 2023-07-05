@@ -1,6 +1,6 @@
 package org.lpumajulca.springcloud.mvsc.cursos.services;
 
-import org.lpumajulca.springcloud.mvsc.cursos.entity.Curso;
+import org.lpumajulca.springcloud.mvsc.cursos.models.entity.Curso;
 
 import java.util.List;
 import java.util.Optional;

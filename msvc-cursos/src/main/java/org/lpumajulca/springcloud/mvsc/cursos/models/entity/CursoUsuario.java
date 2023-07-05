@@ -1,4 +1,4 @@
-package org.lpumajulca.springcloud.mvsc.cursos.entity;
+package org.lpumajulca.springcloud.mvsc.cursos.models.entity;
 
 import javax.persistence.*;
 

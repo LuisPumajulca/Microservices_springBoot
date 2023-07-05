@@ -1,6 +1,6 @@
 package org.lpumajulca.springcloud.mvsc.cursos.services;
 
-import org.lpumajulca.springcloud.mvsc.cursos.entity.Curso;
+import org.lpumajulca.springcloud.mvsc.cursos.models.entity.Curso;
 import org.lpumajulca.springcloud.mvsc.cursos.repositories.CursoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
