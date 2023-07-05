@@ -1,5 +1,6 @@
 package org.lpumajulca.springcloud.mvsc.cursos.services;
 
+import org.lpumajulca.springcloud.mvsc.cursos.clients.UsuarioClientRest;
 import org.lpumajulca.springcloud.mvsc.cursos.models.Usuario;
 import org.lpumajulca.springcloud.mvsc.cursos.models.entity.Curso;
 import org.lpumajulca.springcloud.mvsc.cursos.repositories.CursoRepository;
@@ -15,6 +16,9 @@ public class CursoServiceImpl implements CursoService{
 
     @Autowired
     private CursoRepository repository;
+
+    @Autowired
+    private UsuarioClientRest client;
 
     @Override
     @Transactional(readOnly = true)
