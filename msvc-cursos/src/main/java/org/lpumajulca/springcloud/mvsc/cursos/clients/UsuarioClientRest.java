@@ -12,5 +12,4 @@ public interface UsuarioClientRest {
 
     @PostMapping("/")
     Usuario crear(@RequestBody Usuario usuario);
-    
 }
