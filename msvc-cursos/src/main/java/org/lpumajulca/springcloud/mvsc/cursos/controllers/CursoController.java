@@ -99,7 +99,7 @@ public class CursoController {
         return ResponseEntity.notFound().build();
     }
 
-    @PutMapping("/eliminar-usuario/{cursoId}")
+    @DeleteMapping("/eliminar-usuario/{cursoId}")
     public ResponseEntity<?> eliminarUsuario(@RequestBody Usuario usuario, @PathVariable Long cursoId) {
         Optional<Usuario> o;
         try {
